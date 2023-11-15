@@ -11,9 +11,9 @@ console.log("Hello, TypeScript");
 //* 4. package.json을 수정 - npm start
 
 // 타입 지정법: 타입을 먼저 지정하고 실수를 확인할 수 있다!
-// 기본 타입 - 숫자, 문자열, 불리언
 //! 각각 지정한 타입을 지키지 않으면 에러가 출력된다.
 //* 할당될 수 없습니다 === 타입 불일치로 인한 에러
+// 기본 타입 - 숫자, 문자열, 불리언
 // number
 let numberVar: number = "Hello"; // 'string' 형식은 'number' 형식에 할당할 수 없습니다.
 // string
