@@ -22,7 +22,8 @@ let stringVar: string = 123; // 'number' 형식은 'string' 형식에 할당할 
 let booleanVar: boolean = "Hi" // 'string' 형식은 'boolean' 형식에 할당할 수 없습니다.
 
 // 배열
-// array
-let numberArr: array = [1, 2, 3]; 
-// array라고 쓰면? 
-// `'array' 이름을 찾을 수 없습니다. 'Array'을(를) 사용하시겠습니까?`가 출력됨
+// Array<number>
+let number1Arr: Array<number> = [1, 2, 3]; 
+
+// number[]
+let number2Arr: number[] = [1, 2, 3];
